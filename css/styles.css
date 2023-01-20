@@ -1,0 +1,134 @@
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+:root {
+  --text-color: #434455;
+  --prymary-brand-color: #4d5ae5;
+  --dark-logo-color: #2e2f42;
+  --light-logo-color: #f4f4fd;
+  --pressed-state-color: #404bbf;
+  --borders-color: #e7e9fc;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.button {
+  cursor: pointer;
+  border: none;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.list {
+  list-style: none;
+}
+
+/* Logo styles */
+.logo {
+  font-family: Raleway;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--prymary-brand-color);
+}
+.dark-logo {
+  color: var(--dark-logo-color);
+}
+.light-logo {
+  color: var(--light-logo-color);
+}
+
+/* Header styles */
+.menu {
+  font-weight: 500;
+  color: var(--dark-logo-color);
+}
+.menu-item > a {
+  color: inherit;
+}
+.menu-item.activity {
+  color: var(--pressed-state-color);
+}
+.contacts-item {
+  font-style: normal;
+}
+.contacts-link:hover,
+.contacts-link:focus,
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--pressed-state-color);
+}
+
+/* Main content */
+
+.hero {
+  background-color: var(--dark-logo-color);
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  color: #ffffff;
+}
+.hero-button {
+  align-items: center;
+  color: #ffffff;
+  background-color: var(--prymary-brand-color);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  color: var(--dark-logo-color);
+}
+.section-team {
+  background-color: var(--light-logo-color);
+}
+.item-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--dark-logo-color);
+}
+.list-item {
+  background-color: #ffffff;
+}
+
+.button-filter {
+  align-items: center;
+  background: var(--light-logo-color);
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+  color: var(--prymary-brand-color);
+}
+
+.button-filter:hover,
+.button-filter:focus,
+.hero-button:hover,
+.hero-button:focus {
+  background: var(--pressed-state-color);
+  color: #ffffff;
+}
+
+/* Footer styles */
+.footer {
+  background-color: var(--dark-logo-color);
+}
+.footer-text {
+  color: var(--borders-color);
+}
